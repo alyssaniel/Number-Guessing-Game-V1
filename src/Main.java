@@ -5,19 +5,21 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-
+        // Scanners
         Scanner keyboard;
-        //int's
+        Scanner continueKB;
+        keyboard = new Scanner(System.in);
+        continueKB = new Scanner(System.in);
+        // ints
         int pickedNumber;
         int go = 0;
         int numberOfTries = 0;
-        keyboard = new Scanner(System.in);
+
         Random generator = new Random();
         String keepGoing;
 
-        Scanner continueKB;
-        continueKB = new Scanner(System.in);
+
+
 
 
         System.out.println("Hola! Pick a number between 1 and 1000 to win!");
@@ -37,8 +39,7 @@ public class Main {
 
                 if (pickedNumber == numberToWin) {
                     win = true;
-                    System.out.println(numberToWin);
-                    System.out.println();
+
 
 
                 } else if (pickedNumber < numberToWin) {
