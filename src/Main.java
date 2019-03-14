@@ -10,11 +10,13 @@ public class Main {
         Scanner continueKB;
         keyboard = new Scanner(System.in);
         continueKB = new Scanner(System.in);
+
         // ints
         int pickedNumber;
         int go = 0;
         int numberOfTries = 0;
 
+        // miscellaneous
         Random generator = new Random();
         String keepGoing;
 
