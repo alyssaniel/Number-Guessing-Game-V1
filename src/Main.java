@@ -45,10 +45,10 @@ public class Main {
 
 
                 } else if (pickedNumber < numberToWin) {
-                    System.out.println("The number you have chosen is too low. Guess again:");
+                    System.out.println("The number you have chosen is too low! Guess again:");
                     pickedNumber = keyboard.nextInt();
                 } else if (pickedNumber > numberToWin) {
-                    System.out.println("The number you have chosen is too high. Guess again:");
+                    System.out.println("The number you have chosen is too high! Guess again:");
                     pickedNumber = keyboard.nextInt();
                 }
             }
